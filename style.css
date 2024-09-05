@@ -287,6 +287,13 @@ a.College:hover::after {
     transform: rotateY(180deg);
   }
 
+  .alumni{
+    color: rgba(104, 183, 186, 0.59); 
+  }
+  .alumni:hover{
+    color: rgb(47, 227, 233)
+  }
+
   .card5:hover .content {
     transform: rotateY(180deg);
   }
@@ -675,7 +682,7 @@ a.College:hover::after {
 
 .hr5{
   position: absolute;
-  width: 460px;
+  width: 300px;
   margin-top: -45px;
   margin-left: 140px;
   border: 1px solid rgba(249, 249, 249, 0.395);
@@ -1362,6 +1369,127 @@ color: brown;
         #282828;
     background-size: 40px 60px;
   }
+
+
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    position: absolute;
+    top: 2200px;
+    left: 250px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+.form-group button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+
+/* From Uiverse.io by satyamchaudharydev */ 
+/* inspired form gumroad website */
+.button-con {
+  --bg: #000;
+  --hover-bg: #ff90e8;
+  --hover-text: #000;
+  color: #1af1db;
+  cursor: pointer;
+  border: 1px solid var(--bg);
+  border-radius: 4px;
+  padding: 0.8em 2em;
+  background: var(--bg);
+  transition: 0.2s;
+  background-color: aquamarine;
+  margin-top: 20px;
+  margin-left: 180px;
+  width: 100px;
+}
+
+.button-con:hover {
+  color: var(--hover-text);
+  transform: translate(-0.25rem, -0.25rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.button-con:active {
+  transform: translate(0);
+  box-shadow: none;
+}
+
+.label-con{
+color: lightgrey;
+}
+
+/* From Uiverse.io by saidbl1 */ 
+.inputBox {
+  position: relative;
+  margin-top: 20px;
+  color: rgb(243, 5, 5);
+  
+}
+
+.inputBox input {
+  padding: 15px 20px;
+  outline: none;
+  background: transparent;
+  border-radius: 5px;
+  color: #fff;
+  border: 1px solid#18d1ee;
+  font-size: 1em;
+  width: 400px;
+  height: 20px;
+  color: rgb(95, 152, 153);
+}
+
+.inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 15px 20px;
+  pointer-events: none;
+  font-size: 1em;
+  transition: 0.4s cubic-bezier(0.05, 0.81, 0, 0.93);
+  color: #56c0ee;
+  letter-spacing: 0.1em;
+}
+
+.inputBox input:focus ~ span,
+.inputBox input:valid ~ span {
+  font-size: 0.7em;
+  transform: translateX(14px) translateY(-7.5px);
+  padding: 0 5px;
+  border-radius: 2px;
+  background: #212121;
+  letter-spacing: 0em;
+  border: 1px solid #1ee1d4;
+}
+
+
+
+
   
   @keyframes move {
     0% {
